@@ -1,0 +1,32 @@
+{
+  "name": "ecalculator",
+  "version": "1.0.0",
+  "description": "simple electronjs calculator",
+  "author": "badar",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.badartagar.ecalculator",
+    "productName": "E-Calculator",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "src/index.html",
+      "src/styles.css",
+      "src/renderer.js"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "devDependencies": {
+    "electron": "^37.2.5",
+    "electron-builder": "^26.0.12"
+  }
+}
