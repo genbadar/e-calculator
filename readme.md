@@ -1,3 +1,5 @@
+# E-Calculator
+
 Simple calculator in Electronjs
 
 Contributions are welcome.
